@@ -1,0 +1,368 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  
+
+.topNavBar {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    
+}
+.navBarLinks {
+    align-content: center;
+}
+.navBarLink {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.navBarEmailButton {
+    align-content: center;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+.backgroundCameras {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+.navBarTitle {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+.AboutCompanyMain {
+    margin-top: 110vh;
+    
+}
+.AboutCompanyTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.AboutCaption {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 5vh;
+    
+    
+}
+.AboutTelephone {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: gray;
+    
+    font-size: 1.2em;
+    margin-bottom: 15vh;
+}
+
+.AboutPicture {
+    object-fit: contain;
+    width: 100vw;
+    height: 80vh;
+    align-content: center;
+}
+.AboutCompanyBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15vh;
+    
+    
+}
+.AboutCompanyBottomInner{
+    margin-right: 5vw;
+}
+
+.AboutCompanyBottomCaption{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+
+}
+.AboutCompanyBottomStats{
+    margin-top: 2vh;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.AboutCompanyBottomDesc{
+    line-height: 170%;
+    margin-left: 5vw;
+    font-weight: 360;
+    font-size: 1.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.MainServices {
+    margin-top: 30vh;
+    background-color: #f7f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+    width: 100vw;
+    
+}
+.TopServices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vh;
+    
+    
+}
+.ServiceImage {
+    object-fit: contain;
+    height: 40vh;
+    filter: contrast(70%);
+    
+    
+}
+.BottomServices {
+    display: flex;
+    width: 65vw;
+    justify-content: space-evenly;
+}
+
+.ServicesCaption {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-left: 0.7vw;
+}
+
+.ServicesDirections {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 360;
+    font-size: 1.2em;
+}
+.Service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ServiceCaption {
+    position: absolute;
+    z-index: 1;
+}
+.ServiceCaption {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+
+.OuterPoem {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    background-color: #FF7752;
+    align-items: center;
+    width: 100vw;
+    
+    
+    
+    
+}
+.QuoteContainer {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Quote {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2.5em;
+}
+
+.QuoteAuthor {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+.QuoteButton {
+    width: 12vw;
+    height: 6vh;
+    color: #FF7752;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.AdvantagesMain{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    justify-content: space-around;
+}
+.AdvantagesLower {
+    display: flex;
+    
+
+
+}
+.Advantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.AdvantageImage {
+    object-fit: contain;
+    width: 10vh;
+}
+.AdvantageDesc {
+    margin: 3vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 160%;
+    text-align: center;
+}
+.AdvatangesCaption{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+
+}
+
+.sendingEmail {
+    display: flex;
+    flex-direction: column;
+}
+.FormLower {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+.FormMain {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-evenly;
+    background-color: #f7f2f2;
+}
+.AddressCaption {
+    margin-top: 5vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    
+}
+.WhatsAppImage{
+    object-fit: contain;
+    height: 3vh;
+}
+.sendingEmail{
+    display: flex;
+    flex-direction: column;
+    height: 37vh;
+    justify-content: space-between;
+}
+.FormInput{
+    border: none;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    height: 6vh;
+    width: 25vw;
+}
+.Textarea{
+    height: 10vh;
+    text-align: start;
+    align-content: start;
+    color: black;
+    
+    
+}
+.FormInput::placeholder {
+   padding: 10px;
+    
+}
+.SubmitForm {
+    margin-top: 3vh;
+    width: 12vw;
+    height: 6vh;
+    background-color: #FF7752;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.ContactsCaption{
+    line-height: 200%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6em;
+    font-weight: 350;
+}
+.FormCaption {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.navBarLink:hover {
+    color: black;
+    transition: 0.6s ease;
+}
+
+.navBarEmailButton:hover{
+    color: black;
+    transition: 0.6s ease;
+    background-color: #f7f2f2;
+}
+.Service{overflow: hidden;}
+.ServiceImage {
+    transition: 0.5s all ease-in-out;
+    
+}
+
+.ServiceImage:hover {
+    transform: scale(1.2);
+}
+.QuoteButton:hover, .SubmitForm:hover {
+    background-color: black;
+    color:#f7f2f2;
+    transition: 0.6s ease;
+} 
